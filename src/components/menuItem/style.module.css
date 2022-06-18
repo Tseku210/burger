@@ -1,0 +1,48 @@
+.MenuItem {
+  margin: 0;
+  display: block;
+  width: 100%;
+  align-items: center;
+}
+
+.MenuItem a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  padding: 16px;
+  padding: 16px 10px;
+  border-bottom: 4px solid transparent;
+  font-size: 24px;
+}
+
+.MenuItem a:hover,
+.MenuItem a:active,
+.MenuItem a.Active {
+  color: #40a4c8;
+}
+
+@media (min-width: 500px) {
+  .MenuItem {
+    margin: 0;
+    display: flex;
+    width: auto;
+    align-items: center;
+  }
+
+  .MenuItem a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    padding: 16px;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+  }
+
+  .MenuItem a:hover,
+  .MenuItem a:active,
+  .MenuItem a.Active {
+    background-color: #8f5c2c;
+    border-bottom: 4px solid #40a4c8;
+  }
+}

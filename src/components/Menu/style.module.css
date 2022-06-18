@@ -1,0 +1,14 @@
+.Menu {
+    display: flex;
+    list-style: none;
+    flex-flow: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+@media (min-width: 500px) {
+    .Menu {
+        flex-flow: row;
+    }
+}

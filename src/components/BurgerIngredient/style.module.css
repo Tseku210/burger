@@ -1,0 +1,74 @@
+.BreadTop {
+width: 80%;
+height: 20%;
+background: linear-gradient(#bc581e, #e27b36);
+margin: auto;
+border-radius: 50% 50% 0 0;
+position: relative;
+}
+
+.Seed {
+position: absolute;
+width: 10%;
+height: 15%;
+background-color: #fff;
+top: 50%;
+left: 30%;
+border-radius: 40%;
+transform: rotate(-20deg);
+box-shadow: inset -2px -3px #c9c9c9;
+}
+.Second {
+transform: rotate(20deg);
+top: 25%;
+left: 50%;
+}
+.Third {
+top: 35%;
+left: 70%;
+transform: rotate(-195deg);
+}
+.Fourth {
+top: 45%;
+left: 10%;
+transform: rotate(170deg);
+}
+
+.BreadBottom {
+width: 80%;
+height: 10%;
+background: linear-gradient(#e27b36, #bc581e);  
+margin: auto;
+border-radius: 0 0 20px 20px;
+}
+
+.Salad {
+width: 90%;
+height: 7%;
+margin: 2% auto;
+background: linear-gradient(#228c1d, #91ce50);
+border-radius: 20px;
+}
+
+.Meat {
+width: 80%;
+height: 8%;
+background: linear-gradient(#7f3608, #702e05);
+margin: 2% auto;
+border-radius: 14px;
+}
+
+.Cheese {
+width: 91%;
+height: 4.5%;
+background: linear-gradient(#f4d004, #d6bb22);
+margin: 2% auto;
+border-radius: 20px;
+}
+
+.Bacon {
+width: 80%;
+height: 3%;
+background: linear-gradient(#f33813, #c45e38);
+margin: 2% auto;
+}
